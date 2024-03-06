@@ -4,7 +4,8 @@ based on [arm64-kvm-hello-world/bare-metal-aarch64-qemu at main · Lenz-K/arm64-
 
 ### Notes
 - no standard library is available from the compiler
-- linux firmware source code shows how to get hardware functionalities
+- linux firmware source code shows how to get hardware functionalities, they are chip-dependent, even these chips are in same ARM architecture
   - [linux/drivers/char/hw_random/iproc-rng200.c at rpi-5.4.y · raspberrypi/linux](https://github.com/raspberrypi/linux/blob/rpi-5.4.y/drivers/char/hw_random/iproc-rng200.c)
+
 ### TODOs
 - [ ] use CMake
