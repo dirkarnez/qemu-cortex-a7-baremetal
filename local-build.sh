@@ -5,3 +5,9 @@ export PATH="$PATH:$USERPROFILE/Downloads/xpack-aarch64-none-elf-gcc-13.2.1-1.1-
 export MAKE="$USERPROFILE/Downloads/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe"
 
 make="${MAKE:-make}"
+
+export AS="$USERPROFILE/Downloads/xpack-aarch64-none-elf-gcc-13.2.1-1.1-win32-x64/xpack-aarch64-none-elf-gcc-13.2.1-1.1/bin/aarch64-none-elf-as.exe"
+export CC="$USERPROFILE/Downloads/xpack-aarch64-none-elf-gcc-13.2.1-1.1-win32-x64/xpack-aarch64-none-elf-gcc-13.2.1-1.1/bin/aarch64-none-elf-gcc.exe"
+export LD="$USERPROFILE/Downloads/xpack-aarch64-none-elf-gcc-13.2.1-1.1-win32-x64/xpack-aarch64-none-elf-gcc-13.2.1-1.1/bin/aarch64-none-elf-ld.exe"
+
+$make
